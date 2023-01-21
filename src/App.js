@@ -17,7 +17,7 @@ const todos = [
 
 const App = () => {
 	return (
-		<div className='bg-gray-900'>
+		<div className='bg-gray-900 h-screen text-white'>
 			{todos.map(todo => (
 				<TodoItem todo={todo} />
 			))}
